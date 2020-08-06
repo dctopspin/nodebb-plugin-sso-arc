@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-sso-oauth",
-  "version": "0.3.5",
-  "description": "NodeBB Generic OAuth SSO",
+  "name": "nodebb-plugin-sso-arc",
+  "version": "0.3.6",
+  "description": "NodeBB Generic OAuth SSO with Fix",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-sso-oauth"
+    "url": "https://github.com/dctopspin/nodebb-plugin-sso-arc.git"
   },
   "keywords": [
     "nodebb",
@@ -18,12 +18,12 @@
     "registration"
   ],
   "author": {
-    "name": "Julian Lam",
-    "email": "julian@nodebb.org"
+    "name": "dctopspin",
+    "email": "a@wildsky.dev"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-sso-oauth/issues"
+    "url": "https://github.com/dctopspin/nodebb-plugin-sso-arc.git/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
@@ -43,12 +43,6 @@
     "eslint-plugin-import": "^2.20.1",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "lint-staged": {
     "*.js": [
