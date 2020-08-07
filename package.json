@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-sso-arc",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "NodeBB Generic OAuth SSO with Fix",
   "main": "library.js",
   "repository": {
