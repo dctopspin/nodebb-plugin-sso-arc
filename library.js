@@ -150,6 +150,9 @@
 
 		// Find out what is available by uncommenting this line:
 		console.log(data);
+		if (data.error) {
+				return callback(new Error(data.error));
+		}
 
 		var profile = {};
 		profile.id = data.id;
